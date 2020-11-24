@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Impressum/Datenschutz
 ---
 # Impressum
 Diese Website wird von
@@ -10,7 +10,7 @@ Unterlandweg 1
 5661 Rauris  
 ÖSTERREICH
 
-betrieben. Diese Website verfolgt keinen kommerziellen Zweck und dient dem schulischen Informationsaustausch.
+betrieben. Diese Website verfolgt keinen kommerziellen Zweck und dient dem schulischen Informationsaustausch. Die Website befindet sich er derzeit im Aufbau.
 
 Bei Fragen wenden Sie sich bitte an die oben genannte Adresse bzw. nehmen Sie unter der E-Mail-Adresse <hello@pytt.at> mit mir Kontakt auf.
 
