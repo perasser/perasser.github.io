@@ -1,3 +1,142 @@
-.current {
-    color: green;
+
+$primary: rgb(160, 60, 150);
+$secondary: rgb(104, 181, 170);
+$tertiary: rgb(241, 241, 241);
+$dark: rgb(81,81,81);
+
+
+body {
+    overflow-wrap: break-word;
+}
+
+
+.hero {
+    background-image: url("/assets/1d60b468.png");
+    background-color: $tertiary;
+    background-repeat: repeat;
+    border-bottom: 0.4em solid $secondary;
+}
+
+.hero h1 {
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+.navbar {
+    background-image: url("/assets/1d60b468.png");
+    background-repeat: repeat;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: $primary;
+}
+
+.navbar .navbar-brand {
+    color: $secondary;
+    font-family: 'Oregano', cursive;
+    font-size: xx-large;
+}
+
+.navbar > .navbar-toggler {
+    background-color: $secondary;
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+}
+
+.course-block {
+    background-color: $tertiary;
+
+    h5 {
+        color: $secondary;
+    }
+}
+
+div.footnotes {
+    margin-top: 4em;
+    overflow-wrap: break-word;
+    font-size: 90%;
+}
+
+div.footnotes p {
+    margin-bottom: 0.3rem;
+}
+
+header h1 {
+    font-size: 5em;
+}
+
+h1, h2, h3 {
+    font-family: 'Oregano', cursive;
+    color: $primary;
+    margin-top: 1em;
+}
+
+div.container + h2 {
+    padding-top: 0em;
+}
+
+
+hr {
+    border: 0.05em solid $primary;
+    width: 70%;
+    margin: 0.5em 0em
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: $primary;
+}
+
+dl {
+    background: $tertiary;
+    border-radius: 0.2em;
+    padding: 1em;
+    border-left: 0.25em solid $primary;
+
+    dt {
+        font-family: 'Oregano', cursive;
+        color: $dark;
+        font-size: x-large;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+    }
+}
+
+em {
+    color: $secondary;
+}
+
+
+p img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    display: block;
+}
+
+.social-media {
+    background: $tertiary;
+}
+
+footer {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    background: $secondary;
+}
+
+div.alert {
+    margin-top: 1em;
+    margin-bottom: 0;
+    h2 {
+        margin-top: 0;
+    }
+
+    h3 {
+        margin-top: 0;
+        color: inherit;
+    }
+
 }
